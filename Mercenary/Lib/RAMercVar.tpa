@@ -1,0 +1,6 @@
+// Setting variables to be included into LPF ALTER_EFFECT function.
+OUTER_SET RAMercBlin = (GAME_IS ~bgee~) ? 14674 : GAME_IS ~bg2ee eet~ ? 14674 : (GAME_IS ~iwdee~) ? 14674 : 0	// Blinded
+OUTER_SET RAMercSile = (GAME_IS ~bgee~) ? 14676 : GAME_IS ~bg2ee eet~ ? 14002 : (GAME_IS ~iwdee~) ? 14676 : 0   // Silenced
+OUTER_SET RAMercSlow = (GAME_IS ~bgee~) ? 14668 : GAME_IS ~bg2ee eet~ ? 14668 : (GAME_IS ~iwdee~) ? 11799 : 0	// Slowed
+OUTER_SET RAMercUnco = (GAME_IS ~bgee~) ? 20438 : GAME_IS ~bg2ee eet~ ? 20438 : (GAME_IS ~iwdee~) ? 20438 : 0	// Unconscious
+OUTER_SET RAMercStun = (GAME_IS ~bgee~) ? 26050 : GAME_IS ~bg2ee eet~ ? 1280 : (GAME_IS ~iwdee~) ? 14703 : 0	// Stunned

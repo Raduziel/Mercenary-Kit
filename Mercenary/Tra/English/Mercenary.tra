@@ -1,0 +1,34 @@
+/* ===================== *
+ *       MERCENARY       *
+ * ===================== */
+@101 = ~mercenary~
+@102 = ~Mercenary~
+@103 = ~MERCENARY: This fighter roams through kingdoms and domains devoting <PRO_HISHER> services to whoever gives a good offer - payment is what orients their ideology. Some mercenaries may have some sort of moral code, but they are not known for their loyalty to anything other than gold.
+
+Advantages:
+
+- +1 bonus to hit, damage, Armor Class and speed factor.
+- Gains the Dirty Fight ability. Starts with one use at level 1 and another one every 2 levels up to ten uses at level 19.
+
+DIRTY FIGHT:
+
+The mercenary does not care about honor and that becomes clear in the way <PRO_HESHE> fights. There are several ways that someone can fight dirty as listed below - all of those requires an attack roll, lasts for 5 rounds and have an equal probability of happening; on top of those, the mercenary delivers 1d4 points of damage (Strength bonus apply). The target must make a save versus death with a -2 penalty in order to avoid the effects. The mercenary has 2 rounds to land the blow otherwise <PRO_HESHE> loses the timing of the battle.
+
+Sand throw. Target is blinded. 
+
+Punch in the throat. Target is silenced.
+
+Kick in the knee. Target is slowed.
+
+Knock out. Target is unconscious.
+
+Head strike. Target is stunned.
+
+Disadvantages:
+
+- Can only achieve Mastery.
+- Can only use up to and including splint mail.
+- Alignment restricted to non-Lawful.
+~
+@104 = ~Dirty Fight~
+// EoF

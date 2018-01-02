@@ -1,0 +1,39 @@
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+//
+//				   TURNS KAGAIN INTO A MERCENARY (BGEE and EET only)
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+
+COPY_EXISTING ~kitlist.2da~ ~override~
+  COUNT_2DA_ROWS ~9~ "rows"
+  FOR ( index = 31 ; index < rows ; index = index + 1 ) BEGIN
+    READ_2DA_ENTRY "%index%" 5 9 "clab"
+    PATCH_IF ("%clab%" STRING_COMPARE_CASE "RAMerc" = 0) BEGIN
+      READ_2DA_ENTRY "%index%" 0 9 "RAMerc"
+      SET "rows" = 0
+    END
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+OUTER_SET kit = "%RAMerc%"
+ACTION_FOR_EACH creature IN kagain kagain2 kagain4 kagain6 BEGIN
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~%creature%.cre~ THEN BEGIN
+
+    COPY_EXISTING ~%creature%.cre~ ~override~
+      WRITE_SHORT   0x244 0
+      WRITE_BYTE    0x246 "%kit%"
+      WRITE_BYTE    0x247 0x40
+      BUT_ONLY
+
+  END
+
+COPY_EXISTING_REGEXP GLOB ~^kagain.*\.cre$~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+  READ_BYTE 0x27b "align"  ELSE 0
+  WRITE_BYTE 0x27b 0x23
+  END
+  BUT_ONLY
+  
+END

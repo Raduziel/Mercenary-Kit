@@ -1,0 +1,52 @@
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+//
+//						             Mercenary
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+
+ADD_KIT ~RAMerc~
+    ~RAMerc 1 1 1 1 1 1 1 1~
+    ~RAMerc 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+	~RAMerc 9 3 3 3 3 3~
+	~RAMerc 0 0 0 0 0 0~
+	~RAMerc 15 0 0 0 0 0~
+    ~RAMerc 15 0 0 0 0 0~
+	~RAMerc 0 0 0 1 1 1 1 1 1~
+	~RAMerc 1 1 1 1 1 1~
+	~Mercenary\Tables\RAMerc.2da~
+	~K_F_H   K_F_D   K_F_G   K_F_E   K_F_HE   K_F_HL   K_F_HO~
+	~0x00000001 2~
+	~Fi0~
+	~CHAN18 SHLD31 HELM07 * RING39 RING29 CLCK26 BOOT04 AMUL27 BRAC16 BELT10 * * * * * * MISCBC WAFLAIL *~
+	SAY @101
+	SAY @102
+	SAY @103
+
+LAF fl#add_kit_ee
+	STR_VAR
+		kit_name = ~RAMerc~
+END
+
+COPY ~Mercenary\Spl\RAMercFe.spl~ ~override~
+
+COPY ~Mercenary\Spl\RAMercDF.spl~ ~override~ SAY NAME1 @104 SAY UNIDENTIFIED_DESC @104
+
+COPY ~Mercenary\Itm\RAMercDF.itm~ ~override~ SAY NAME1 @104 SAY NAME2 @104
+    LPF ALTER_EFFECT INT_VAR match_parameter1 = 1 match_opcode = 139 parameter1 = EVAL "%RAMercBlin%" END
+    LPF ALTER_EFFECT INT_VAR match_parameter1 = 2 match_opcode = 139 parameter1 = EVAL "%RAMercSile%" END
+    LPF ALTER_EFFECT INT_VAR match_parameter1 = 3 match_opcode = 139 parameter1 = EVAL "%RAMercSlow%" END
+    LPF ALTER_EFFECT INT_VAR match_parameter1 = 4 match_opcode = 139 parameter1 = EVAL "%RAMercUnco%" END
+	LPF ALTER_EFFECT INT_VAR match_parameter1 = 5 match_opcode = 139 parameter1 = EVAL "%RAMercStun%" END
+	
+COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+		READ_BYTE 0x18 flags1
+		PATCH_IF ((flags1 & BIT3) = BIT3) BEGIN
+		READ_ASCII	0x22 animation (2)
+		PATCH_IF ("%animation%" STRING_EQUAL_CASE "4A") BEGIN
+		  LPF ~ADD_ITEM_EQEFFECT~ INT_VAR opcode = 319 target = 1 timing = 2 parameter1 = IDS_OF_SYMBOL (~Kit~ ~RAMerc~) parameter2 = 9 special = RESOLVE_STR_REF (@102) END
+		END
+		END
+	END
+BUT_ONLY
