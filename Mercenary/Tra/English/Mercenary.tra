@@ -20,9 +20,9 @@ Punch in the throat. Target is silenced.
 
 Kick in the knee. Target is slowed.
 
-Knock out. Target is unconscious.
+Hit in the lung. Target is winded.
 
-Head strike. Target is stunned.
+Blow in the head. Target is stunned.
 
 This ability won't work against undeads, constructs, elementals, mists and plants in general.
 
@@ -33,4 +33,5 @@ Disadvantages:
 - Alignment restricted to non-Lawful.
 ~
 @104 = ~Dirty Fight~
+@105 = ~Winded~
 // EoF
