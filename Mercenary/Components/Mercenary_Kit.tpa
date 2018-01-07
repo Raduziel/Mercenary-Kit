@@ -30,14 +30,14 @@ END
 
 COPY ~Mercenary\Spl\RAMercFe.spl~ ~override~
 
-COPY ~Mercenary\Spl\RAMercDF.spl~ ~override~ SAY NAME1 @104 SAY UNIDENTIFIED_DESC @104
+COPY ~Mercenary\Spl\RAMercDF.spl~ ~override~ SAY NAME1 @104 SAY UNIDENTIFIED_DESC @105
 
 COPY ~Mercenary\Itm\RAMercDF.itm~ ~override~ SAY NAME1 @104 SAY NAME2 @104
     LPF ALTER_EFFECT INT_VAR match_parameter1 = 1 match_opcode = 139 parameter1 = EVAL "%RAMercBlin%" END
     LPF ALTER_EFFECT INT_VAR match_parameter1 = 2 match_opcode = 139 parameter1 = EVAL "%RAMercSile%" END
     LPF ALTER_EFFECT INT_VAR match_parameter1 = 3 match_opcode = 139 parameter1 = EVAL "%RAMercSlow%" END
 	LPF ALTER_EFFECT INT_VAR match_parameter1 = 4 match_opcode = 139 parameter1 = EVAL "%RAMercStun%" END
-	LPF ALTER_EFFECT INT_VAR match_parameter1 = 5 match_opcode = 139 parameter1 = RESOLVE_STR_REF (@105) END
+	LPF ALTER_EFFECT INT_VAR match_parameter1 = 5 match_opcode = 139 parameter1 = RESOLVE_STR_REF (@106) END
 	
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
 	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN

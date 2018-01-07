@@ -33,5 +33,20 @@ Disadvantages:
 - Alignment restricted to non-Lawful.
 ~
 @104 = ~Dirty Fight~
-@105 = ~Winded~
+@105 = ~Dirty Fight
+
+The mercenary does not care about honor and that becomes clear in the way <PRO_HESHE> fights. There are several ways that someone can fight dirty as listed below - all of those requires an attack roll, lasts for 5 rounds and have an equal probability of happening; on top of those, the mercenary delivers 1d4 points of damage (Strength bonus apply). The target must make a save versus death with a -2 penalty in order to avoid the effects. The mercenary has 2 rounds to land the blow otherwise <PRO_HESHE> loses the timing of the battle.
+
+Sand in the eyes. Target is blinded. 
+
+Punch in the throat. Target is silenced.
+
+Kick in the knee. Target is slowed.
+
+Hit in the lung. Target is winded.
+
+Blow in the head. Target is stunned.
+
+This ability won't work against undeads, constructs, elementals, mists and plants in general.~
+@106 = ~Winded~
 // EoF
