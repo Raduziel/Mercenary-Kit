@@ -15,6 +15,10 @@ LANGUAGE ~English~
 		 ~Mercenary/Tra/English~
 		 ~Mercenary/Tra/English/setup.tra~
 		 ~Mercenary/Tra/English/Mercenary.tra~
+LANGUAGE ~Francais (traduction: Gwendolyne)~
+         ~French~
+		 ~Mercenary/Tra/French/setup.tra~
+		 ~Mercenary/Tra/French/Mercenary.tra~
 
 //__________________________________________________________________________________
 //__________________________________________________________________________________
