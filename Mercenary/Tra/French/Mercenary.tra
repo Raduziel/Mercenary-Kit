@@ -1,0 +1,44 @@
+/* ===================== *
+ *       MERCENARY       *
+ * ===================== */
+@101 = ~mercenaire~
+@102 = ~Mercenaire~
+@103 = ~MERCENAIRE : Ce combattant parcourt les royaumes en offrant ses services à ceux qui lui font une offre intéressante - l'argent est sa seule motivation. Si certains mercenaires peuvent suivre une sorte de code moral, ils ne sont toutefois pas connus pour leur fidélité à autre chose que l'or.
+
+Avantages :
+
+- Bonus de 1 au toucher, aux dégâts, à la classe d'armure et au facteur de vitesse.
+- Au niveau 1, il gagne la capacité Combat déloyal, puis une utilisation supplémentaire tous les deux niveaux, jusqu'à dix au niveau 19.
+
+COMBAT DÉLOYAL :
+
+Le mercenaire ne soucie pas de la notion d'honneur, et cela s'illustre parfaitement dans sa manière de combattre. On peut porter des coups en traître de plusieurs façons, listées plus bas, mais toutes nécessitent de porter une attaque de mêlée, durent 5 rounds et ont la même probabilité de se produire. La victime doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour éviter leurs effets. Le mercenaire dispose de trois rounds après l'activation de cette capacité pour placer son coup.
+
+* Sable dans les yeux : la cible est aveuglée.
+* Coup de poing dans la gorge : la cible est réduite au silence.
+* Coup de pied dans le genou : la cible est ralentie.
+* Coup dans les poumons : la cible a le souffle coupé.
+* Coup porté à la tête : la cible est étourdie.
+
+Cette capacité ne fonctionne pas contre les morts-vivants, les créatures artificielles, les élémentaires, les brumes et les plantes en général.
+
+
+Désavantages :
+
+- Ne peut atteindre que la maîtrise dans le maniement des armes.
+- Ne peut porter d'armure plus lourde que l'armure feuilletée.
+- Doit être d'alignement non loyal.~
+@104 = ~Combat déloyal~
+@105 = ~Combat déloyal
+
+Le mercenaire ne soucie pas de la notion d'honneur, et cela s'illustre parfaitement dans sa manière de combattre. On peut porter des coups en traître de plusieurs façons, listées plus bas, mais toutes nécessitent de porter une attaque de mêlée, durent 5 rounds et ont la même probabilité de se produire. La victime doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour éviter leurs effets. Le mercenaire dispose de trois rounds après l'activation de cette capacité pour placer son coup.
+
+- Sable dans les yeux : la cible est aveuglée.
+- Coup de poing dans la gorge : la cible est réduite au silence.
+- Coup de pied dans le genou : la cible est ralentie.
+- Coup dans les poumons : la cible a le souffle coupé.
+- Coup porté à la tête : la cible est étourdie.
+
+Cette capacité ne fonctionne pas contre les morts-vivants, les créatures artificielles, les élémentaires, les brumes et les plantes en général.~
+@106 = ~a le souffle coupé~
+// EoF
