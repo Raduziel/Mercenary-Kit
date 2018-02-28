@@ -1,44 +1,45 @@
+// -*- coding: utf-8 -*- 
 /* ===================== *
  *       MERCENARY       *
  * ===================== */
 @101 = ~mercenaire~
 @102 = ~Mercenaire~
-@103 = ~MERCENAIRE : Ce combattant parcourt les royaumes en offrant ses services à ceux qui lui font une offre intéressante - l'argent est sa seule motivation. Si certains mercenaires peuvent suivre une sorte de code moral, ils ne sont toutefois pas connus pour leur fidélité à autre chose que l'or.
+@103 = ~MERCENAIRE : Ce combattant parcourt les royaumes en offrant ses services Ã  ceux qui lui font une offre intÃ©ressante - l'argent est sa seule motivation. Si certains mercenaires peuvent suivre une sorte de code moral, ils ne sont toutefois pas connus pour leur fidÃ©litÃ© Ã  autre chose que l'or.
 
 Avantages :
 
-- Bonus de 1 au toucher, aux dégâts, à la classe d'armure et au facteur de vitesse.
-- Au niveau 1, il gagne la capacité Combat déloyal, puis une utilisation supplémentaire tous les deux niveaux, jusqu'à dix au niveau 19.
+- Bonus de 1 au toucher, aux dÃ©gÃ¢ts, Ã  la classe d'armure et au facteur de vitesse.
+- Au niveau 1, il gagne la capacitÃ© Combat dÃ©loyal, puis une utilisation supplÃ©mentaire tous les deux niveaux, jusqu'Ã  dix au niveau 19.
 
-COMBAT DÉLOYAL :
+COMBAT DÃ‰LOYAL :
 
-Le mercenaire ne soucie pas de la notion d'honneur, et cela s'illustre parfaitement dans sa manière de combattre. On peut porter des coups en traître de plusieurs façons, listées plus bas, mais toutes nécessitent de porter une attaque de mêlée, durent 5 rounds et ont la même probabilité de se produire. La victime doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour éviter leurs effets. Le mercenaire dispose de trois rounds après l'activation de cette capacité pour placer son coup.
+Le mercenaire ne soucie pas de la notion d'honneur, et cela s'illustre parfaitement dans sa maniÃ¨re de combattre. On peut porter des coups en traÃ®tre de plusieurs faÃ§ons, listÃ©es plus bas, mais toutes nÃ©cessitent de porter une attaque de mÃªlÃ©e, durent 5 rounds et ont la mÃªme probabilitÃ© de se produire. La victime doit rÃ©ussir un jet de sauvegarde contre la mort avec un malus de 2 pour Ã©viter leurs effets. Le mercenaire dispose de trois rounds aprÃ¨s l'activation de cette capacitÃ© pour placer son coup.
 
-* Sable dans les yeux : la cible est aveuglée.
-* Coup de poing dans la gorge : la cible est réduite au silence.
+* Sable dans les yeux : la cible est aveuglÃ©e.
+* Coup de poing dans la gorge : la cible est rÃ©duite au silence.
 * Coup de pied dans le genou : la cible est ralentie.
-* Coup dans les poumons : la cible a le souffle coupé.
-* Coup porté à la tête : la cible est étourdie.
+* Coup dans les poumons : la cible a le souffle coupÃ©.
+* Coup portÃ© Ã  la tÃªte : la cible est Ã©tourdie.
 
-Cette capacité ne fonctionne pas contre les morts-vivants, les créatures artificielles, les élémentaires, les brumes et les plantes en général.
+Cette capacitÃ© ne fonctionne pas contre les morts-vivants, les crÃ©atures artificielles, les Ã©lÃ©mentaires, les brumes et les plantes en gÃ©nÃ©ral.
 
 
-Désavantages :
+DÃ©savantages :
 
-- Ne peut atteindre que la maîtrise dans le maniement des armes.
-- Ne peut porter d'armure plus lourde que l'armure feuilletée.
-- Doit être d'alignement non loyal.~
-@104 = ~Combat déloyal~
-@105 = ~Combat déloyal
+- Ne peut atteindre que la maÃ®trise dans le maniement des armes.
+- Ne peut porter d'armure plus lourde que l'armure feuilletÃ©e.
+- Doit Ãªtre d'alignement non loyal.~
+@104 = ~Combat dÃ©loyal~
+@105 = ~Combat dÃ©loyal
 
-Le mercenaire ne soucie pas de la notion d'honneur, et cela s'illustre parfaitement dans sa manière de combattre. On peut porter des coups en traître de plusieurs façons, listées plus bas, mais toutes nécessitent de porter une attaque de mêlée, durent 5 rounds et ont la même probabilité de se produire. La victime doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour éviter leurs effets. Le mercenaire dispose de trois rounds après l'activation de cette capacité pour placer son coup.
+Le mercenaire ne soucie pas de la notion d'honneur, et cela s'illustre parfaitement dans sa maniÃ¨re de combattre. On peut porter des coups en traÃ®tre de plusieurs faÃ§ons, listÃ©es plus bas, mais toutes nÃ©cessitent de porter une attaque de mÃªlÃ©e, durent 5 rounds et ont la mÃªme probabilitÃ© de se produire. La victime doit rÃ©ussir un jet de sauvegarde contre la mort avec un malus de 2 pour Ã©viter leurs effets. Le mercenaire dispose de trois rounds aprÃ¨s l'activation de cette capacitÃ© pour placer son coup.
 
-- Sable dans les yeux : la cible est aveuglée.
-- Coup de poing dans la gorge : la cible est réduite au silence.
+- Sable dans les yeux : la cible est aveuglÃ©e.
+- Coup de poing dans la gorge : la cible est rÃ©duite au silence.
 - Coup de pied dans le genou : la cible est ralentie.
-- Coup dans les poumons : la cible a le souffle coupé.
-- Coup porté à la tête : la cible est étourdie.
+- Coup dans les poumons : la cible a le souffle coupÃ©.
+- Coup portÃ© Ã  la tÃªte : la cible est Ã©tourdie.
 
-Cette capacité ne fonctionne pas contre les morts-vivants, les créatures artificielles, les élémentaires, les brumes et les plantes en général.~
-@106 = ~a le souffle coupé~
+Cette capacitÃ© ne fonctionne pas contre les morts-vivants, les crÃ©atures artificielles, les Ã©lÃ©mentaires, les brumes et les plantes en gÃ©nÃ©ral.~
+@106 = ~a le souffle coupÃ©~
 // EoF
