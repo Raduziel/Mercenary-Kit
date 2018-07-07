@@ -1,6 +1,6 @@
 BACKUP ~Mercenary/Backup~
 AUTHOR ~Raduziel~
-VERSION ~2.7~
+VERSION ~2.8~
 
 ALWAYS
 
@@ -38,6 +38,5 @@ INCLUDE ~Mercenary/Components/Mercenary_Kit.tpa~
 //__________________________________________________________________________________
 
 BEGIN @2
-REQUIRE_PREDICATE GAME_IS ~bgee eet~ @3
-REQUIRE_COMPONENT ~Mercenary.tp2~ ~0~ @4
+REQUIRE_PREDICATE ((GAME_IS ~bgee eet~) AND (FILE_EXISTS_IN_GAME ~RAMerc.2da~)) @3
 INCLUDE  ~Mercenary/Components/Kagain_The_Mercenary.tpa~
