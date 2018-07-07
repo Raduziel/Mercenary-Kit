@@ -10,10 +10,10 @@ ADD_KIT ~RAMerc~
     ~RAMerc 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
 	~RAMerc 9 3 3 3 3 3~
 	~RAMerc 0 0 0 0 0 0~
-	~RAMerc 15 0 0 0 0 0~
-    ~RAMerc 15 0 0 0 0 0~
+	~RAMerc 9 3 3 3 3 3~
+    ~RAMerc 9 3 3 3 3 3~
 	~RAMerc 0 0 0 1 1 1 1 1 1~
-	~RAMerc 1 1 1 1 1 1~
+	~RAMerc 0 1 1 1 0 0~
 	~Mercenary\Tables\RAMerc.2da~
 	~K_F_H   K_F_D   K_F_G   K_F_E   K_F_HE   K_F_HL   K_F_HO~
 	~0x00000001 2~
@@ -26,6 +26,7 @@ ADD_KIT ~RAMerc~
 LAF fl#add_kit_ee
 	STR_VAR
 		kit_name = ~RAMerc~
+		clsrcreq = ~1 1 1 1 1 1 1~
 END
 
 COPY ~Mercenary\Spl\RAMercFe.spl~ ~override~
