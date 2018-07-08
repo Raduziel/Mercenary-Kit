@@ -25,15 +25,11 @@ ACTION_FOR_EACH creature IN kagain kagain2 kagain4 kagain6 BEGIN
       WRITE_SHORT   0x244 0
       WRITE_BYTE    0x246 "%kit%"
       WRITE_BYTE    0x247 0x40
-      BUT_ONLY
+      WRITE_BYTE 0x27b 0x23
+	  BUT_ONLY
 
-  END
+	END
 
-COPY_EXISTING_REGEXP GLOB ~^kagain.*\.cre$~ ~override~
-  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
-  READ_BYTE 0x27b "align"  ELSE 0
-  WRITE_BYTE 0x27b 0x23
-  END
-  BUT_ONLY
-  
-END
+	END
+
+//EoF
