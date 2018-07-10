@@ -1,10 +1,9 @@
 /* ===================== *
  *         SETUP         *
  * ===================== */
-@1 = ~Installer le profil de Mercenaire pour guerriers~ 
-@2 = ~Kagain, le Mercenaire. Modifie l'alignement de Kagain'en neutre mauvais et lui donne le profil de mercenaire~
-@3 = ~Ce composant n'est disponible que pour BGEE et EET~
-@4 = ~Ce composant necessite le profil de Mercenaire~
+@1 = ~Installer le profil de Mercenaire pour guerriers.~ 
+@2 = ~Kagain, le Mercenaire. Modifie l'alignement de Kagain'en neutre mauvais et lui donne le profil de mercenaire.~
+@3 = ~Impossible de trouver le profil ou le fichier de la creature. Le composant ne sera donc pas installe.~
 
 
 // WeiDU prompts
