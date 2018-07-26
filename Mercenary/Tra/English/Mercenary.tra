@@ -1,52 +1,62 @@
 /* ===================== *
  *       MERCENARY       *
  * ===================== */
+
 @101 = ~mercenary~
 @102 = ~Mercenary~
-@103 = ~MERCENARY: This fighter roams through kingdoms and domains devoting <PRO_HISHER> services to whoever gives a good offer - payment is what orients their ideology. Some mercenaries may have some sort of moral code, but they are not known for their loyalty to anything other than gold.
+@103 = ~MERCENARY: For rulers who lack the funds for a standing army, who lack the loyalty of their people, or who simply need a decisive victory: enter the Mercenary. These hired killers, for good or ill, are not drawn into the politics of the land. Some fight for coin, reputation, power, or simply the love of battle, but always for personal gratification in some way or another.
 
 Advantages:
 
-- +1 bonus to hit, damage, Armor Class and speed factor.
-- Gains the Dirty Fight ability. Starts with one use at level 1 and another one every 2 levels up to ten uses at level 19.
+- +1 bonus to hit, damage, armor class and speed factor.
+- Gains the Skulduggery ability.
 
-DIRTY FIGHT:
+SKULDUGGERY:
 
-The mercenary does not care about honor and that becomes clear in the way <PRO_HESHE> fights. There are several ways that someone can fight dirty as listed below - all of those requires a melee attack, lasts for 5 rounds and have an equal probability of happening. The target must make a save versus death with a -2 penalty in order to avoid the effects. The mercenary has 3 rounds to land the blow before <PRO_HESHE> loses the timing of the battle.
+The Mercenary is not bound by duty or honor, except that which further enhances their fame. Each victory serves their notoriety best and the Mercenary will commit to any manner of underhanded tactics to win the day.
 
-Sand in the eyes. Target is blinded. 
+Starting with one use at level 1, the Mercenary gains another use every 2 levels, up to ten uses at level 19. To be effective, a successful melee attack must be made within 3 rounds of the ability being activated.
 
-Punch in the throat. Target is silenced.
+Each fight brings a new challenge and the Mercenary will use whatever opportunity presents itself to best their foe. To represent this, there are five different techniques, with an equal probability of occurring. Each technique lasts for 5 rounds and the target must make a save vs death with a -2 penalty in order to successfully defend against it.
 
-Kick in the knee. Target is slowed.
+1. Spit in the eye - target is blinded. 
 
-Hit in the lung. Target is winded.
+2. Punch to the jugular - target is silenced.
 
-Blow in the head. Target is stunned.
+3. Shin stomp - target is slowed.
 
-This ability won't work against undead, constructs, elementals, mists and plants in general.
+4. Belly shot - target is winded.
+
+5. Blow to the nether region - target is stunned.
+
+This ability will not work against undead, constructs, elementals, mists or plant creatures.
 
 Disadvantages:
 
 - Can only achieve Mastery.
-- Can only use up to and including splint mail.
-- Alignment restricted to non-Lawful.
+- Can only wear up to and including splint mail.
+- Alignment restricted to non-lawful.
 ~
-@104 = ~Dirty Fight~
-@105 = ~Dirty Fight
+@104 = ~Skulduggery~
+@105 = ~Skulduggery
 
-The mercenary does not care about honor and that becomes clear in the way <PRO_HESHE> fights. There are several ways that someone can fight dirty as listed below - all of those requires an attack roll, lasts for 5 rounds and have an equal probability of happening. The target must make a save versus death with a -2 penalty in order to avoid the effects. The mercenary has 3 rounds to land the blow otherwise <PRO_HESHE> loses the timing of the battle.
+The Mercenary is not bound by duty or honor, except that which further enhances their fame. Each victory serves their notoriety best and the Mercenary will commit to any manner of underhanded tactics to win the day.
 
-Sand in the eyes. Target is blinded. 
+Starting with one use at level 1, the Mercenary gains another use every 2 levels, up to ten uses at level 19. To be effective, a successful melee attack must be made within 3 rounds of the ability being activated.
 
-Punch in the throat. Target is silenced.
+Each fight brings a new challenge and the Mercenary will use whatever opportunity presents itself to best their foe. To represent this, there are five different techniques, with an equal probability of occurring. Each technique lasts for 5 rounds and the target must make a save vs death with a -2 penalty in order to successfully defend against it.
 
-Kick in the knee. Target is slowed.
+1. Spit in the eye - target is blinded. 
 
-Hit in the lung. Target is winded.
+2. Punch to the jugular - target is silenced.
 
-Blow in the head. Target is stunned.
+3. Shin stomp - target is slowed.
 
-This ability won't work against undead, constructs, elementals, mists, and plants in general.~
+4. Belly shot - target is winded.
+
+5. Blow to the nether region - target is stunned.
+
+This ability will not work against undead, constructs, elementals, mists or plant creatures.~
 @106 = ~Winded~
+
 // EoF
