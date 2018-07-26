@@ -1,7 +1,6 @@
 /* ===================== *
  *       MERCENARY       *
  * ===================== */
-
 @101 = ~mercenary~
 @102 = ~Mercenary~
 @103 = ~MERCENARY: For rulers who lack the funds for a standing army, who lack the loyalty of their people, or who simply need a decisive victory: enter the Mercenary. These hired killers, for good or ill, are not drawn into the politics of the land. Some fight for coin, reputation, power, or simply the love of battle, but always for personal gratification in some way or another.
@@ -17,7 +16,7 @@ The Mercenary is not bound by duty or honor, except that which further enhances 
 
 Starting with one use at level 1, the Mercenary gains another use every 2 levels, up to ten uses at level 19. To be effective, a successful melee attack must be made within 3 rounds of the ability being activated.
 
-Each fight brings a new challenge and the Mercenary will use whatever opportunity presents itself to best their foe. To represent this, there are five different techniques, with an equal probability of occurring. Each technique's effect lasts for 5 rounds and the target must make a save vs death with a -2 penalty in order to successfully defend against it.
+Each fight brings a new challenge and the Mercenary will use whatever opportunity presents itself to best their foe. To represent this, there are five different techniques, with an equal probability of occurring. The effect of each technique lasts for 5 rounds and the target must make a save vs. Death with a -2 penalty in order to successfully defend against it.
 
 1. Spit in the eye - target is blinded. 
 

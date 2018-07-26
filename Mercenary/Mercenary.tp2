@@ -38,5 +38,5 @@ INCLUDE ~Mercenary/Components/Mercenary_Kit.tpa~
 //__________________________________________________________________________________
 
 BEGIN @2
-REQUIRE_PREDICATE ((GAME_IS ~bgee eet~) AND (FILE_EXISTS_IN_GAME ~RAMerc.2da~)) @3
+REQUIRE_PREDICATE ((GAME_IS ~bgee eet~) AND (REQUIRE_COMPONENT ~Mercenary.tp2~ ~0~)) @3
 INCLUDE  ~Mercenary/Components/Kagain_The_Mercenary.tpa~
