@@ -1,6 +1,6 @@
 BACKUP ~Mercenary/Backup~
 AUTHOR ~Raduziel~
-VERSION ~2.9~
+VERSION ~3.0~
 
 ALWAYS
 
@@ -38,5 +38,18 @@ INCLUDE ~Mercenary/Components/Mercenary_Kit.tpa~
 //__________________________________________________________________________________
 
 BEGIN @2
-REQUIRE_PREDICATE ((GAME_IS ~bgee eet~) AND (REQUIRE_COMPONENT ~Mercenary.tp2~ ~0~)) @3
+REQUIRE_PREDICATE (GAME_IS ~bgee eet~) @4
+REQUIRE_COMPONENT ~Mercenary.tp2~ ~0~ @4
 INCLUDE  ~Mercenary/Components/Kagain_The_Mercenary.tpa~
+
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+//
+//				       KORGAN, THE MERCENARY (BG2EE and EET only)
+//__________________________________________________________________________________
+//__________________________________________________________________________________
+
+BEGIN @3
+REQUIRE_PREDICATE (GAME_IS ~bg2ee eet~) @4
+REQUIRE_COMPONENT ~Mercenary.tp2~ ~0~ @4
+INCLUDE  ~Mercenary/Components/Korgan_The_Mercenary.tpa~

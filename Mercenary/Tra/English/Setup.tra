@@ -3,6 +3,7 @@
  * ===================== */
 @1 = ~Install Mercenary kit for Fighters~ 
 @2 = ~Kagain, the Mercenary. Alters Kagain's alignment to Neutral Evil and gives him the Mercenary kit~
-@3 = ~The kit or creature file wasn't found, the component will be ignored~
+@3 = ~Korgan, the Mercenary. Alters Kagain's alignment to Neutral Evil and gives him the Mercenary kit~
+@4 = ~The kit or creature file wasn't found, the component will be ignored~
 
 // EoF

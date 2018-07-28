@@ -3,8 +3,8 @@
  * ===================== */
 @1 = ~Installer le profil de Mercenaire pour guerriers.~ 
 @2 = ~Kagain, le Mercenaire. Modifie l'alignement de Kagain'en neutre mauvais et lui donne le profil de mercenaire.~
-@3 = ~Impossible de trouver le profil ou le fichier de la creature. Le composant ne sera donc pas installe.~
-
+@3 = ~Korgan, le Mercenaire. Modifie l'alignement de Kagain'en neutre mauvais et lui donne le profil de mercenaire.~
+@4 = ~Impossible de trouver le profil ou le fichier de la creature. Le composant ne sera donc pas installe.~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"
